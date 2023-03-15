@@ -28,10 +28,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@id/iv_other"
             android:background="@drawable/shape_left_msg_bg"
             android:text="123"
-            android:textColor="@color/black"
-            android:layout_toEndOf="@id/iv_other" />
+            android:textColor="@color/black"/>
     </RelativeLayout>
 
     <RelativeLayout
